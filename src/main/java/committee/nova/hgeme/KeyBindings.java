@@ -12,10 +12,9 @@ public class KeyBindings {
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent event) {
-        // 这里不要用 ModConfig.CUSTOM_KEY.get()
         CUSTOM_SOUND_KEY = new KeyMapping(
                 "key.hgeme.hold_h",
-                GLFW.GLFW_KEY_H, // 先用默认 H
+                GLFW.GLFW_KEY_H,
                 "key.categories.hgeme"
         );
         event.register(CUSTOM_SOUND_KEY);

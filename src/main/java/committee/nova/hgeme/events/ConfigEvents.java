@@ -27,9 +27,8 @@ public class ConfigEvents {
         if (KeyBindings.CUSTOM_SOUND_KEY != null) {
             int keyCode = ModConfig.CUSTOM_KEY.get();
             if (keyCode < 32 || keyCode > 348) {
-                keyCode = GLFW.GLFW_KEY_H; // 非法值回退
+                keyCode = GLFW.GLFW_KEY_H;
             }
-            // 转换成 InputConstants.Key 再设置
             KeyBindings.CUSTOM_SOUND_KEY.setKey(InputConstants.Type.KEYSYM.getOrCreate(keyCode));
         }
     }

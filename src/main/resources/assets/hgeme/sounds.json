@@ -1,8 +1,15 @@
 {
   "haqi1": {
     "subtitles": "sounds.hgeme.haqi",
-    "sounds": [
-      "hgeme:haqi1"
-    ]
+    "sounds":
+    ["hgeme:haqi1"]
+  },
+  "haqi2": {
+    "subtitles": "sounds.hgeme.haqi",
+    "sounds": ["hgeme:haqi2"]
+  },
+  "haqi3": {
+    "subtitles": "sounds.hgeme.haqi",
+    "sounds": ["hgeme:haqi3"]
   }
 }
